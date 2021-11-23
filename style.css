@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(153, 190, 138);
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 10%;
+}
+
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.fotos {
+    border-radius: 100%;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.distancia {
+padding: 25px;
+
+}
