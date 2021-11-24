@@ -1,5 +1,10 @@
 body {
     background-color: rgb(153, 190, 138);
+    padding: 3%;
+}
+
+h1{
+    text-align: center;
 }
 
 h1, h2, h3 {
@@ -10,30 +15,44 @@ p {
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
     background-color: white;
-    padding: 15px 15px;
-    border-radius: 10%;
-}
 
+}
+.sobre {
+    position: absolute;
+    top: 120px;
+    left: 530px;
+}
+.descricao {
+    position: absolute;
+    top: 220px;
+    width: 50%;
+    left: 530px;
+}
 
 ul {
     font-family: 'Courier New', Courier, monospace;
     
 }
-
-.fotos {
-    border-radius: 100%;
-    
+ul li:nth-child(odd) {
+    background-color: azure;
 }
 
 h3 {
     text-align: center;
 }
 
-h1{
-    text-align: center;
-}
-
 .distancia {
-padding: 25px;
-
+margin: 25px;
 }
+
+#Henrique {
+    float: left;
+    padding: 10px;
+    background-color: rgb(5, 24, 2);
+}
+
+.imagem-container {
+    height: 454px;
+    position: relative;
+}
+
